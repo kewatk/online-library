@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import BookCard from '../components/BookCard';
 import CategoryCard from '../components/CategoryCard';
-// import './Home.css';
+import './Home.css';
 
 function Home() {
   const { books, categories } = useSelector((state) => state.books);

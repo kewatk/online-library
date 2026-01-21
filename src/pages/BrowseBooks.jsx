@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 import BookCard from '../components/BookCard';
-// import './BrowseBooks.css';
+import '../style/BrowseBooks.css';
 
 function BrowseBooks() {
   const { category } = useParams();

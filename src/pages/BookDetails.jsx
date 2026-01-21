@@ -1,7 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { FaStar, FaArrowLeft, FaUser, FaTag } from 'react-icons/fa';
-// import './BookDetails.css';
+import '../style/BookDetails.css';
 
 function BookDetails() {
   const { id } = useParams();

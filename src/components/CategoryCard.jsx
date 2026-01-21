@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaBook } from 'react-icons/fa';
-// import './CategoryCard.css';
+import '../style/CategoryCard.css';
 
 function CategoryCard({ category, count }) {
   return (
