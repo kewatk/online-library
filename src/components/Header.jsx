@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FaBook, FaHome, FaPlus, FaSearch } from 'react-icons/fa';
-// import './Header.css';
+import '../style/Header.css';
 
 function Header() {
   const location = useLocation();
